@@ -1,0 +1,266 @@
+/*THIS CSS SHOULD CONTAIN ONLY COMMON STYLES*/
+/*Page specific styles must be in their own css file*/
+body {
+    background-color: #E0E0DF;
+}
+
+li {
+    list-style-type: none;
+}
+
+#ref {
+    display: inline-block;
+    color: white;
+    margin-top: 3px;
+    text-decoration: none;
+    padding: .2em 1em;
+    outline: none;
+    border-width: 0 0;
+    border-style: solid none;
+    border-radius: 6px;
+    background: linear-gradient(rgb(104, 104, 104), rgba(53, 53, 53, 0.69)) rgba(0, 0, 0, 0.86);
+    transition: 0.2s;
+}
+
+#wrapper {
+    margin: 1%;
+    margin-right: 200px;
+    padding: 1%;
+}
+
+.item {
+    vertical-align: top;
+    margin: 3px;
+    color: #666666;
+    background-color: #ffffff;
+    border-color: #eeeeee;
+    display: inline-block;
+    padding: 2px;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 9px 10px 43px -1px rgba(0, 0, 0, 0.75);
+}
+
+.item a {
+    display: inline-block;
+    padding-left: 5%;
+    text-decoration: none;
+
+}
+
+.item a:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.item a:active {
+    display: inline-block;
+    transform: scale(1.3);
+    text-decoration: none;
+}
+
+.item a:visited {
+    display: inline-block;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+/*button begin
+*/
+.dropdown_btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delete_btn {
+    display: block;
+    top: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+
+.show_update_forms_btn {
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.purchase_material {
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.add_btn {
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.clickableIcon {
+    cursor: pointer;
+}
+
+.clickableIcon:HOVER {
+    transform: scale(1.15);
+}
+
+.clickableIcon:ACTIVE {
+    transform: scale(0.75);
+}
+
+.accept_changes_btn {
+    position: relative;
+    float: right;
+}
+
+.add_delete_wrapper {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.add_delete_wrapper form {
+    margin-bottom: 0px;
+}
+
+/*buttons end
+*/
+
+.controller_name {
+    text-align: center;
+    font-size: 80%;
+}
+
+.controller {
+    background-color: white;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+/*
+.hidden should be in the end of the css
+*/
+
+.initializers .controller {
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px;
+    color: #666666;
+    background-color: #ffffff;
+    border-color: #eeeeee;
+    padding: 2px;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 9px 10px 43px -1px rgba(0, 0, 0, 0.75);
+}
+
+.inline_form {
+    display: inline-block;
+}
+
+.menu_item {
+    vertical-align: top;
+    margin: 3px;
+    color: #666666;
+    background-color: #ffffff;
+    border-color: #eeeeee;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 9px 10px 43px -1px rgba(0, 0, 0, 0.75);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+a:active {
+    display: inline-block;
+    transform: scale(1.3);
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666666;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+.sidebar {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 50px;
+    position: fixed;
+    background-color: white;
+}
+
+.expand_btn {
+    vertical-align: middle;
+}
+
+
+
+.active_menu_item {
+    background-color: #A4F7AE;
+}
+
+.content_table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_table td {
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #666;
+}
+
+.content_table td:first-child {
+    text-align: inherit;
+}
+
+.content_table th {
+    padding: 3px;
+    background: #fc0; /* Цвет фона заголовка */
+}
+
+.content_table .grey_table_row {
+    background: #ccc; /* Цвет фона нечетных строк */
+}
+
+.content_table .selected_table_row {
+    background-color: #3399ff;
+}
+.hidden {
+    display: none;
+}
+.mytd {
+    padding: 0px;
+    margin:0px;
+}
